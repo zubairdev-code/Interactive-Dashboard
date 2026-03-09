@@ -4,7 +4,7 @@ Interactive Dashboard Builder
 
 Project Concept:
 
-A mini dashboard app where users can add, customize, and arrange widgets/cards dynamically on the page. Each widget can show info like notes, tasks, quotes, or a mini clock, and users can edit, delete, or drag them around.
+A mini dashboard app where users can add, customize, and arrange widgets/cards dynamically on the page. Each widget can show info like notes, tasks, quotes, or a mini clock, and users can edit, delete
 
 This is frontend only, but it will look very professional and interactive — a real portfolio highlight.
 
@@ -24,32 +24,10 @@ Delete Widgets
 
 Each widget has a delete button → removes card from dashboard.
 
-Drag & Drop Widgets (Advanced DOM)
-
-User can rearrange cards on the dashboard.
-
-Practice dragstart, dragover, drop events.
-
 Custom Styles / Themes
 
-Allow users to change background color or font style of each widget.
+Allow users to change background color  of each widget.
 
 Practice CSS dynamic manipulation via JS (style property).
 
-Optional Extras
 
-Add a real-time clock widget
-
-Add random quote widget (can use array of quotes, no API needed yet)
-
-Save dashboard layout in localStorage (if you want to make it persistent)
-
-Why This Project Is Perfect for You
-
-Strong DOM practice: create, update, delete, drag, style elements dynamically.
-
-CSS & HTML showcase: modern card layout, hover effects, responsive grid.
-
-Portfolio-worthy: looks like a real dashboard app used in companies.
-
-Expandable: later, you can integrate APIs or backend for more functionality.
