@@ -1,0 +1,152 @@
+body {
+    background-color: #d3d3d3;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 3px;
+    background-color: #0284c7;
+    color: white;
+}
+
+#main {
+    margin: 0;
+    font-size: 24px;
+    color: #f8fafc;
+}
+
+.btn {
+    padding: 10px 18px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0f172a;
+    color: #e0f2fe;
+}
+.btn:hover {
+    background-color: #1e293b;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.25);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.card{
+    height: 300px;
+    width: 280px;
+    background-color: aqua;
+    border: 1.5px solid black;
+    margin-left: 24px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+ 
+}
+
+h2{
+    align-items: center;
+    text-align: center;
+}
+.contentDiv{
+
+    flex: 1;
+    overflow-y: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.btnDiv {
+
+       display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: auto; 
+
+
+}
+
+.btnDiv button {
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: none;
+    /* background-color: #0284c7; */
+    color: #ffffff;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.editBtn {
+  background-color: #0284c7;
+  color: #ffffff;
+}
+.deleteBtn {
+  background-color: #dc2626; 
+  color: #ffffff;
+}
+.hideBtn {
+  background-color: #6b7280;
+  color: #ffffff;
+}
+
+
+
+
+
+.card {
+    height: 300px;
+    width: 280px;
+    background-color: aqua;
+    border: 1.5px solid black;
+    margin-left: 24px;
+    margin-top: 5px;
+
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.contentDiv {
+    flex: 1;
+    overflow-y: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnDiv {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: auto;
+    margin-bottom: 5px;
+}
+.dark{
+    background-color: #222222;
+    color: red;
+}
+
+#searchInp{
+    padding: 6px 12px;
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 220px;
+
+}
+#searchBtn{
+    padding: 5px 11px;
+    border-radius: 5px;
+    background-color: green;
+    color: #ffffff;
+
+}
+.hide{
+    display: none;
+
+}
